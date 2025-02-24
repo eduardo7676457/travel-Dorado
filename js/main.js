@@ -13,11 +13,6 @@
     }, 1);
   };
   loader();
-
-  document.getElementById("scrollButton").addEventListener("click", function(event) {
-    event.preventDefault(); // Evita que el enlace haga scroll al inicio
-    window.scrollBy(0, 900); // Desplaza la página hacia abajo 300px
-});
 	
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
@@ -89,6 +84,8 @@
     }
   });
 
+
+  
 	// owl carousel
 	var majorCarousel = $('.js-carousel-1');
 	majorCarousel.owlCarousel({
@@ -163,7 +160,6 @@
     }
   });
 
-
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.element-animate').waypoint( function( direction ) {
@@ -200,6 +196,39 @@
 	};
 	contentWayPoint();
 
+  $('.home-slider').owlCarousel({
+    loop:true,
+    autoplay: true,
+    margin:0,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    nav:true,
+    autoplayHoverPause: true,
+    items: 1,
+    navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true
+        }
+    }
+});
+
+// Otros sliders y carousels...
+
+// Agregar el código para el desplazamiento de la página al hacer clic en el botón
+document.getElementById("scrollButton").addEventListener("click", function(event) {
+    event.preventDefault(); // Evita que el enlace haga scroll al inicio
+    window.scrollBy(0, 900); // Desplaza la página hacia abajo 900px
+});
 
 
 })(jQuery);

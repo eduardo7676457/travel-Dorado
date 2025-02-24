@@ -444,7 +444,7 @@ header .navbar .cta-btn a:hover {
 .heading-wrap .back-text, .heading-wrap .back-text-dark {
   z-index: 0;
   line-height: 1;
-  top: em;
+  top: 50%;
   left: 50%;
   margin-top: -50px;
   -webkit-transform: translateX(-50%);
