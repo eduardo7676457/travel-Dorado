@@ -14,6 +14,10 @@
   };
   loader();
 
+  document.getElementById("scrollButton").addEventListener("click", function(event) {
+    event.preventDefault(); // Evita que el enlace haga scroll al inicio
+    window.scrollBy(0, 900); // Desplaza la página hacia abajo 300px
+});
 	
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
