@@ -444,16 +444,16 @@ header .navbar .cta-btn a:hover {
 .heading-wrap .back-text, .heading-wrap .back-text-dark {
   z-index: 0;
   line-height: 1;
-  top: .5em;
+  top: em;
   left: 50%;
   margin-top: -50px;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   font-weight: 800;
-  font-size: 200px;
+  font-size: 100px;
   position: absolute;
-  width: 100%;
+  width: -50%;
   color: #f0f0f0;
   text-transform: uppercase;
 }
