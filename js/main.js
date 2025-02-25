@@ -152,7 +152,7 @@
   $('.centernonloop').owlCarousel({
     center: true,
     items: 1,
-    startPosition: 2,
+    startPosition: 1,
     loop: false,
     margin:10,
     dots: true,
@@ -208,6 +208,7 @@
         nav:true,
         autoplayHoverPause: true,
         items: 1,
+        startPosition: 3,
         navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
         responsive:{
             0:{
