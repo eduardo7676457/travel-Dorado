@@ -41,6 +41,7 @@
     nav:true,
     autoplayHoverPause: true,
     items: 1,
+    
     navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
     responsive:{
       0:{
@@ -67,6 +68,7 @@
     nav:true,
     autoplayHoverPause: true,
     items: 1,
+    
     navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
     responsive:{
       0:{
@@ -150,6 +152,7 @@
   $('.centernonloop').owlCarousel({
     center: true,
     items: 1,
+    startPosition: 2,
     loop: false,
     margin:10,
     dots: true,

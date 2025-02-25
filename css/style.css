@@ -124,8 +124,8 @@ textarea.form-control {
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  border-color: #f96593;
-  background: #f96593;
+  border-color: #57664f;
+  background: #57664f;
 }
 
 .btn.btn-sm {
@@ -134,7 +134,7 @@ textarea.form-control {
 
 .btn.btn-outline-primary {
   border-width: 2px;
-  color: #f73471;
+  color: #57664f;
 }
 
 .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
@@ -263,12 +263,12 @@ header .navbar .dropdown-menu:before {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-  background: #f73471;
+  background: #57664f;
   color: #fff;
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-  background: #f73471;
+  background: #57664f;
   color: #fff;
 }
 
@@ -278,7 +278,7 @@ header .navbar .dropdown-menu a {
 }
 
 header .navbar .cta-btn a {
-  background: #f73471;
+  background: #57664f;
   color: #fff !important;
   text-transform: uppercase;
   padding: 15px 20px !important;
@@ -291,7 +291,7 @@ header .navbar .cta-btn a {
 
 header .navbar .cta-btn a:hover {
   background: #fff;
-  color: #f73471 !important;
+  color: #57664f !important;
   -webkit-box-shadow: 2px 0 30px -5px rgba(0, 0, 0, 0.2);
   box-shadow: 2px 0 30px -5px rgba(0, 0, 0, 0.2);
 }
@@ -327,7 +327,7 @@ header .navbar .cta-btn a:hover {
 
 .section-heading .small-sub-heading {
   font-size: 14px;
-  color: #f73471;
+  color: #57664f;
 }
 
 .blog .media h3 {
@@ -403,7 +403,7 @@ header .navbar .cta-btn a:hover {
   font-size: 20px;
   color: #fff;
   display: inline-block;
-  background: #f73471;
+  background: #57664f;
   width: 100px;
   height: 100px;
   line-height: 100px;
@@ -441,7 +441,7 @@ header .navbar .cta-btn a:hover {
 .heading-wrap h2:before {
   width: 80px;
   height: 2px;
-  background: #f73471;
+  background: #57664f;
   content: "";
   position: absolute;
   top: 0;
@@ -542,7 +542,7 @@ header .navbar .cta-btn a:hover {
 
 .custom-icon {
   font-size: 70px;
-  color: #f73471;
+  color: #57664f;
 }
 
 /* Owl Carousel */
@@ -624,7 +624,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .owl-carousel.centernonloop .owl-dots .owl-dot.active {
-  background: #f73471;
+  background: #57664f;
 }
 
 .owl-carousel.centernonloop .owl-dots .owl-dot:active, .owl-carousel.centernonloop .owl-dots .owl-dot:focus {
@@ -886,7 +886,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .form-wrap.primary {
-  background: #f73471;
+  background: #57664f;
 }
 
 .form-wrap.warning {
@@ -940,7 +940,7 @@ header .navbar .cta-btn a:hover {
   position: relative;
   width: 0px;
   font-size: 30px;
-  color: #f73471;
+  color: #57664f;
 }
 
 .load-more {
@@ -953,7 +953,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .load-more:hover {
-  background: #f73471;
+  background: #57664f;
   color: #fff;
 }
 
@@ -993,7 +993,7 @@ header .navbar .cta-btn a:hover {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: #f73471;
+  background: #57664f;
 }
 
 .text-black {
@@ -1022,7 +1022,7 @@ header .navbar .cta-btn a:hover {
 
 .media-feature .icon {
   font-size: 60px;
-  color: #f73471;
+  color: #57664f;
 }
 
 .media-feature h3 {
@@ -1037,7 +1037,7 @@ header .navbar .cta-btn a:hover {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   z-index: 2;
-  border-bottom: 10px solid #f73471;
+  border-bottom: 10px solid #57664f;
 }
 
 .media-custom {
@@ -1146,7 +1146,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .site-footer a {
-  color: #f73471;
+  color: #57664f;
   border-bottom: 1px solid transparent;
 }
 
