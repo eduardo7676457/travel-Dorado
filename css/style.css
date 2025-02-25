@@ -1,12 +1,14 @@
 html {
-
-  overflow-x: absolute;
+  overflow-x: hidden;
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  outline: 1px solid red;
+
   
 }
 #btn-mas{
@@ -69,6 +71,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #868e96;
+  gap: 0;
   
 }
 
