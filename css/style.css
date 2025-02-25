@@ -1,11 +1,13 @@
 html {
-  overflow-x: hidden;
+
+  overflow-x: absolute;
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 #btn-mas{
   display: none;
@@ -28,28 +30,32 @@ html {
   border-radius: 50%;
   box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
   transition: all 500ms ease;
+  
 }
 .redes a:hover{
   background: #fff;
   color: #cc2b2b;
+  
 }
 .redes a{
   margin-bottom: -15px;
   opacity: 0;
   visibility: hidden;
+  
 }
 #btn-mas:checked~ .redes a{
   margin-bottom: 10px;
   opacity: 1;
   visibility: visible;
+  
 }
 .btn-mas label{
   cursor: pointer;
   background: #f44141;
-  font-size: 23px;
+  font-size: 30px;
 }
 #btn-mas:checked ~ .btn-mas label{
-  transform: rotate(135deg);
+  transform: rotate(120deg);
   font-size: 25px;
 }
 
@@ -63,6 +69,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #868e96;
+  
 }
 
 a {
@@ -451,11 +458,11 @@ header .navbar .cta-btn a:hover {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   font-weight: 800;
-  font-size: 100px;
+  font-size: 90px;
   position: absolute;
   width: -50%;
   color: #f0f0f0;
-  text-transform: uppercase;
+  
 }
 
 .heading-wrap .back-text-dark {
