@@ -180,17 +180,17 @@ header .navbar-brand.absolute {
 }
 
 header .navbar-brand span {
-  color: #f73471;
+  color: #2b2b2b;
 }
 
 @media (min-width: 768px) {
   header .navbar-brand span {
-    color: #ced4da;
+    color: #2b2b2b;
   }
 }
 
 header .navbar {
-  background: black !important;
+  background: rgba(230, 230, 230, 0) !important;
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
