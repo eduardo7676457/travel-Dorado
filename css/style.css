@@ -17,7 +17,7 @@ html {
         z-index: 9999;
 }
 .redes a, .btn-mas label{
-  display: block;
+  
   text-decoration: none;
   background: #cc2b2b;
   color: #fff;
