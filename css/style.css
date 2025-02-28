@@ -882,7 +882,14 @@ header .navbar .cta-btn a:hover {
 .form-wrap.overlap {
   z-index: 99;
   position: relative;
-  margin-top: -10em;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%; /* Ajusta el ancho según sea necesario */
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .form-wrap.primary {
@@ -1411,5 +1418,16 @@ header .navbar .cta-btn a:hover {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-wrap.overlap {
+      position: fixed;
+      top: 50%;
+      left: 5%;
+      transform: translateX(-50%);
+      width: 90%;
+      max-width: none;
   }
 }
